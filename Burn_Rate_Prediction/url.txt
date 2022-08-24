@@ -1,0 +1,2 @@
+https://burn-rate-model-frontend.herokuapp.com/
+https://burn-rate-model-backend.herokuapp.com/

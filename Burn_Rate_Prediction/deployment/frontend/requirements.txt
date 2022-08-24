@@ -1,0 +1,4 @@
+requests
+streamlit
+matplotlib
+typing_extensions

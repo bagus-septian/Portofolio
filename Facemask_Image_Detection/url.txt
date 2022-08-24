@@ -1,0 +1,2 @@
+frontend : https://face-mask-ml2p2-frontend.herokuapp.com/
+backend : https://face-mask-ml2p2-backend.herokuapp.com/
