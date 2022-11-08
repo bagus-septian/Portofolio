@@ -1,0 +1,2 @@
+backend : https://churn-model-ml1p2-frontend.herokuapp.com/
+frontend : https://churn-model-ml1p2-fe.herokuapp.com/
