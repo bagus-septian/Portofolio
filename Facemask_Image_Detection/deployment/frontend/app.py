@@ -1,5 +1,5 @@
 import json
-import matplotlib.pyplt as plt
+import matplotlib.pyplot as plt
 import cv2
 import numpy as np
 import streamlit as st
