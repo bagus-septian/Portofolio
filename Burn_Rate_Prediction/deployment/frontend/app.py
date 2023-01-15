@@ -8,8 +8,8 @@ st.image(img)
 st.title("Aplikasi Pengecekan Tingkat Burning Out Pegawai")
 gender = st.selectbox("Jenis kelamin", ["Male", "Female"])
 wfh = st.selectbox("Apakah terdapat fasilitas WFH?",["Yes", "No"])
-designation = st.number_input("Level Jabatan anda di perusahaan (skala 1-5, semakin tinggi skor semakin tinggi jabatan dalam perusahaan)")
-resource = st.number_input("Berapa lama waktu yang anda alokasikan untuk bekerja dalam sehari (satuan jam)")
+designation = st.number_input("Level Jabatan anda di perusahaan (skala 1-5, semakin tinggi skor semakin tinggi jabatan dalam perusahaan)", min_value=1, max_value=5)
+resource = st.number_input("Berapa lama waktu yang anda alokasikan untuk bekerja dalam sehari (satuan jam)", min_value=1, max_value=5)
 mental_score = st.number_input("Skor kelelahan mental anda (skala 1-10, semakin tinggi semakin parah kelelahan mental")
 
 # inference

@@ -26,11 +26,10 @@ def burnout_inference(data, model=burnout_model):
                                     'Resource Allocation', 'Mental Fatigue Score']
     output : predicted value : (idx, label)
     """
-    value = []
     columns = ['gender', 'wfh', 'designation', 'resource', 'mental_score']
     data = pd.DataFrame(data, columns=columns)
     res = model.predict(data)
-    return res[0], value[res[0]]
+    return res[0]
 
 @app.route("/burnout")
 def burnout_predict():

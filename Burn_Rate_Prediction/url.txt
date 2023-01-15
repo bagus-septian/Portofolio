@@ -1,2 +1,6 @@
+# Old url doesn't work, migrate to new url
 https://burn-rate-model-frontend.herokuapp.com/
 https://burn-rate-model-backend.herokuapp.com/
+
+# New url
+https://huggingface.co/spaces/bagus-septian/burnout_prediction
