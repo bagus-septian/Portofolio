@@ -1,2 +1,6 @@
+# Old url doesn't work, migrate to new url
 frontend : https://face-mask-ml2p2-frontend.herokuapp.com/
 backend : https://face-mask-ml2p2-backend.herokuapp.com/
+
+# New url
+https://huggingface.co/spaces/bagus-septian/facemask_identification
